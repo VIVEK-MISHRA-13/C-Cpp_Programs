@@ -1,13 +1,13 @@
 #include<stdio.h>
 
 int main(){
-    int n=5;
+    int n=9;
     int loop1;
     if(n==3){
-        loop1 = n-1;
+        loop1 = (n/2) + 1;
     }
     else{
-        loop1 = n-2;
+        loop1 = (n/2)+1;
     }
 
     int i=1;
@@ -47,6 +47,7 @@ int main(){
    
 
     while (loop2--)
+                    
     {
         int space1 = n;
         while (space1--)
@@ -120,10 +121,10 @@ int main(){
     
     int loop4;
     if(n==3){
-        loop4 = n-2;
+        loop4 = (n/2);
     }
     else{
-        loop4 = n-3;
+        loop4 = (n/2);
     }
     int j=1;
     while (loop4--)
