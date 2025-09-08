@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-     int n=7;
+     int n=5;
      int loop1,loop3;
      int i=1;
     if(n==3){
